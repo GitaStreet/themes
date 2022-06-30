@@ -44,6 +44,7 @@ body {
 	background: var(--wp--preset--color--foreground);
 	border-color: var(--wp--preset--color--foreground);
 	color: var(--wp--preset--color--background);
+	text-decoration: none;
 }
 .wp-block-button__link.wp-block-button__link:active {
 	color: var(--wp--preset--color--primary);
@@ -123,17 +124,15 @@ body {
 a:not(
 	.wp-block-search__button,
 	.wp-block-button__link
-),
+) {
+	text-underline-offset: .1rem;
+}
+
 .wp-block-site-title a {
 	padding: .4rem 0;
 	text-decoration: inherit; /* Needed so the link styles will be inherited correctly from theme.json */
 	text-underline-offset: .1rem;
 }
-
-a:not(
-	.wp-block-search__button,
-	.wp-block-button__link
-):hover,
 
 .wp-block-site-title a:hover {
 	text-decoration: underline;
@@ -147,12 +146,6 @@ a:not(
 	text-decoration-style: dotted;
 }
 
-a:not(
-	.wp-block-search__button,
-	.wp-block-button__link,
-	.wp-block-navigation-link__content,
-	.wp-block-navigation-item__content
-):active,
 .wp-block-site-title a:active {
 	text-decoration: none;
 	background-color: var(--wp--preset--color--tertiary);
