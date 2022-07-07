@@ -1,7 +1,7 @@
 === Vivre ===
 Contributors: Automattic
 Requires at least: 5.8
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -10,6 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Vivre is a bold, opinionated blogging theme, heavily inspired by fashion and lifestyle magazines and websites.
 With large heavy sans-serif paired with a light elegant serif font, it sets the tone to a refined reading experience.
+
+== Notes ==
+
+This theme was developed using the Gutenberg plugin v13.6.0. Some elements may not work or appear as expected without that version or higher installed.
 
 == Changelog ==
 
