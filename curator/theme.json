@@ -347,14 +347,14 @@
 							"text": "var(--wp--preset--color--foreground)"
 						},
 						"typography": {
-							"textDecoration": "none"
+							"textDecoration": "none 0.25rem"
 						},
 						":hover": {
 							"color": {
 								"text": "var(--wp--preset--color--primary)"
 							},
 							"typography": {
-								"textDecoration": "underline"
+								"textDecoration": "underline 0.25rem"
 							}
 						}
 					}
@@ -394,6 +394,11 @@
 						},
 						"color": {
 							"text": "var(--wp--preset--color--foreground)"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}
